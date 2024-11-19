@@ -1,7 +1,7 @@
 const msalConfig = {
     auth: {
-        clientId: "cc42fffa-97c6-456a-8c80-380b95631463",  // Replace with your Azure AD app's client ID
-        authority: "https://login.microsoftonline.com/72f988bf-86f1-41af-91ab-2d7cd011db47",  // Replace with your Azure AD tenant ID
+        clientId: "-----",  // Replace with your Azure AD app's client ID
+        authority: "https://login.microsoftonline.com/-----",  // Replace with your Azure AD tenant ID
         redirectUri: window.location.href  // Using the current page as the redirect URI
     },
     cache: {
